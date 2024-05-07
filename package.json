@@ -1,0 +1,17 @@
+{
+    "name": "spell-check-to-ci",
+    "version": "1.0.0",
+    "description": "A simple spell checking CI job that uses Codespell to check for common spelling mistakes in your code and other text files.",
+    "scripts": {
+      "spellcheck": "bash ./tooling/codespell/scripts/install_and_run_codespell.sh",
+      "spellcheck:setup": "codespell -I ./tooling/codespell/ignore-these-words.txt -w --interactive=3 --skip=\"*.lock,*.svg,*.png,*.jpg,*.gif,*.pdf,*.gz,*.zip,*.tar,*.tgz,*.woff,*.woff2,*.eot,*.ttf,*.map,*.min.js,*.min.css,node_modules,*.lock,*.yaml,node_modules/\" .",
+      "spellcheck:ci": "codespell -I ./tooling/codespell/ignore-these-words.txt --skip=\"*.lock,*.svg,*.png,*.jpg,*.gif,*.pdf,*.gz,*.zip,*.tar,*.tgz,*.woff,*.woff2,*.eot,*.ttf,*.map,*.min.js,*.min.css,node_modules,*.lock,*.yaml,node_modules/\" ."
+    },
+    "keywords": [],
+    "author": "Shubham Sharma",
+    "license": "ISC",
+    "dependencies": {
+      "pnpm": "^9.1.0"
+    }
+  }
+  
