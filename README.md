@@ -4,7 +4,7 @@ This project provides a simple way to set up a spell checking CI job for your pr
 
 ## Dependencies
 
-- Python - high-level, general-purpose programming language.
+- Python - high-level, general-purpose programming language
 - `pnpm` - Fast, disk space efficient package manager. Can be installed with either `npm` or `yarn`
 - `codespell` - Spell checker for source code. Has to be installed with `pip`
 
