@@ -1,6 +1,6 @@
 # Spell Checker for CI/CD
 
-This project provides a simple way to set up a spell checking CI job for your project or application. It uses `codespell` to check for common spelling mistakes in your code and other text files. https://github.com/codespell-project/actions-codespell does exist, however this projects provides a more comprehensive way to use Codespell as a CI check, as it also includes a way to, and documents how to set-up and run Codespell locally, as you'll need to do so to automatically write changes that Codespell recommends.
+This project provides a simple way to set up a spell checking CI job for your project or application. It uses `codespell` to check for common spelling mistakes in your code and other text files. https://github.com/codespell-project/actions-codespell does exist, however this projects provides a more comprehensive way to use Codespell as a CI check, as it also includes a way to, and documents how to set-up and run Codespell locally, as you'll need to do so to automatically write changes that Codespell recommends. You may also want to opt to integrate a spell checking dependency such as `cspell` with `eslint`, but even that has it's limitations such as not being able to scan markdown files.
 
 ## Dependencies
 
